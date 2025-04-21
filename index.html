@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de fuerzas</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+
+</head>
+<body>
+
+    <main>
+        <div class="contentenido_principal">
+
+            <h1 class="">CALCULADORA <br> DE REPOSO</h1>
+
+            <label for="name">Ingrese el angulo:</label>
+            <input type="number" id="angulo" name="name" required>
+
+            <label for="name">Ingrese la masa:</label>
+            <input type="number" id="masa" name="name" required>
+
+            
+        
+            <label for="options">Seleccione una opción:</label>
+            <select id="opcion" name="options" required>
+                <option value="hielo">Hielo</option>
+                <option value="madera">Madera</option>
+                <option value="cuero">Cuero</option>
+                <option value="vidrio">Vidrio</option>
+                <option value="acero">Acero</option>
+            </select>
+            
+            <select id="opcion2" name="options" required>
+                <option value="hielo">Hielo</option>
+                <option value="madera">Madera</option>
+                <option value="cuero">Cuero</option>
+                <option value="vidrio">Vidrio</option>
+                <option value="acero">Acero</option>
+            </select>
+
+            <button id="verificar">Calcular reposo</button>
+            <div id="resultado"></div>
+           
+
+        </div>
+    </main>
+        
+        
+    
+
+    <script src="facu.js"></script>
+</body>
+</html>
